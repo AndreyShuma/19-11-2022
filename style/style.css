@@ -154,7 +154,7 @@ padding: 10px;
 }
 
 .img-goods {
-    background-image: url(/img/Stoika.jpg);
+    background-image: url(./img/Stoika.jpg);
     background-repeat: no-repeat;
     background-size: 100px;
     background-position: center;

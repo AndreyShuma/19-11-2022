@@ -1,0 +1,186 @@
+.wrapper {
+
+}
+.header {
+    background-color: rgb(226, 223, 223);
+}
+.header-width {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 25px;
+}
+.menu > a  {
+    text-decoration: none;
+    margin: 0 20px 0 0;
+    color: gray;
+}
+
+.enter > a {
+    text-decoration: none;
+    margin: 0 0 0 20px;
+    color: black;
+}
+
+.enter-2 {
+    border-right: 1px solid black;
+    padding-right: 20px;
+}
+
+.logo {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.shtab {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.shtab > p {
+    margin: 0;
+    line-height: 16px;
+}
+
+.car {
+    font-size: 14px;
+}
+
+.korzina {
+    font-weight: bold;
+}
+
+.korzina > a {
+    text-decoration: none;
+    color: black;
+}
+
+.goods {
+    font-weight: 300;
+    font-size: 12px;
+    color: grey;
+}
+
+.telethon {
+    background-color: rgb(235, 178, 21);  
+}
+
+.telofon-conteiner {
+    max-width: 850px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid; */
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.nomer > a, .poisk > a {
+    color: white;
+    text-decoration: none;
+}
+
+.nomer-zapchasti {
+ background-color: #fff;
+ width: 600px;
+ height: 30px;
+ padding-left: 10px;
+ color: gray;
+ display: flex;
+ align-items: center;
+ border-radius: 5px;
+}
+@media screen and (max-width:950px) {
+    .nomer-zapchasti {
+        max-width: 500px;
+    }
+}
+
+.poisk {
+    border: 1px solid #fff;
+    padding: 7px;
+    border-radius: 3px;
+}
+
+.main {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    gap: 15px;
+    width: 100%;
+    /* justify-content: space-between; */
+}
+
+.navigatia {
+width: calc(100%/12*2);
+height: 200px;
+background-color: rgb(223, 219, 219);
+padding: 10px;
+}
+
+@media screen and (max-width: 960px) {
+    .navigatia {
+        display: none;
+    }
+    
+}
+
+.catalog-goods > h2 {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.enter-goods {
+    /* margin: 20px 0; */
+    border-top: 1px solid rgb(218, 216, 216);
+    /* border-bottom: 1px solid rgb(218, 216, 216); */
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 770px;
+}
+
+.img-goods {
+    background-image: url(/img/Stoika.jpg);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+    width: 120px;
+    height: 100px;
+}
+
+h5 {
+    margin: 5px 0;
+}
+
+.content-goods-p {
+    font-size: 12px;
+    color: gray;
+    margin: 0;
+}
+
+.price-goods {
+   font-weight: bolder; 
+   margin: 0 100px;
+
+}
+
+.basket-goods {
+    background-color: rgb(235, 178, 21);
+    padding: 10px;
+    color: #fff;
+    border-radius: 4px;
+}

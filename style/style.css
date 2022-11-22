@@ -113,6 +113,14 @@
     .nomer-zapchasti {
         max-width: 500px;
     }
+    .header-width, .logo, .telofon-conteiner  {
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10px;
+    }
 }
 
 .poisk {
@@ -195,18 +203,53 @@ h5 {
 }
 @media screen and (max-width:750px) {
     .nomer-zapchasti {
-        max-width: 300px;
+        max-width: 200px;
     }
     .main {
         display: block; 
     }
     .enter-goods {
-        display: block;  
+        display: block; 
+        margin: 10px 0; 
     }
 
-    .content-goods, .content-goods-p, .img-goods, .basket-goods, .price-goods {
+    .content-goods, .content-goods-p, .img-goods, .price-goods {
         width: 100%;
-        margin: 10px auto;
+        margin: 5px auto;
         text-align: center;
+    }
+    .basket-goods {
+        text-align: center;
+        margin: 0 auto;
+        width: calc(100%/12*7);
+    }
+    .header-width, .logo  {
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+    .enter > a {
+        margin: 0 0 0 0;
+    }
+    .telofon-conteiner {
+        padding: 0 10px;
+    }
+
+}
+@media screen and (max-width:450px) {
+    .telofon-conteiner {
+        display: block;
+        height: 100%;
+        
+    }
+    .nomer, .poisk, .nomer-zapchasti {
+        display: block;
+        margin: 10px auto; 
+        text-align: center;
+        width: calc(100%/12*6);
+        padding: 5px 0;
     }
 }

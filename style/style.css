@@ -1,6 +1,15 @@
-.wrapper {
 
+
+@media screen and (max-width: 1000px) {
+    body {
+        /* margin: 0 10px; */
+    }
 }
+
+/* body {
+    padding: 0 10px;
+} */
+
 .header {
     background-color: rgb(226, 223, 223);
 }
@@ -150,7 +159,7 @@ padding: 10px;
     display: flex;
     align-items: center;
     gap: 15px;
-    width: 770px;
+    /* width: 770px; */
 }
 
 .img-goods {
@@ -183,4 +192,21 @@ h5 {
     padding: 10px;
     color: #fff;
     border-radius: 4px;
+}
+@media screen and (max-width:750px) {
+    .nomer-zapchasti {
+        max-width: 300px;
+    }
+    .main {
+        display: block; 
+    }
+    .enter-goods {
+        display: block;  
+    }
+
+    .content-goods, .content-goods-p, .img-goods, .basket-goods, .price-goods {
+        width: 100%;
+        margin: 10px auto;
+        text-align: center;
+    }
 }
